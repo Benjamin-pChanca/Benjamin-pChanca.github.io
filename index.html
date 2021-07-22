@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul class="navigation__list">
+                <li><a href="#banner" onclick="toggleMenu()">Inicio</a></li>
+                <li><a href="#about" onclick="toggleMenu()">Quien Soy</a></li>
+                <li><a href="#services" onclick="toggleMenu()"> Servicios</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Proyectos</a></li>
+                <li><a href="#testimonials" onclick="toggleMenu()">Testimonios</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contactos</a></li>
+            </ul>
+            <div class="themeSwitch"></div>
+        </div>
+
+    <div class="main">
+        <div class="topbar">
+            <a href="" class="topbar__logo">Portafolio</a>
+            <div class="toggle">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </div>
+        <!--BANNER-->
+        <section class="section__banner" id="banner">
+            <div class="banner-content">
+                <div class="banner-content-img">
+                    <img src="./assets/img/userr.jpg" alt="">
+                </div>
+                <h3>Benjamin Ponce Chanca</h3>
+                <p>Soy un Frontend Developer</p>
+                <a href="cv.html" class="btn">Descarga mi CV</a>
+                <ul class="socialMedia">
+                    <li><a href="https://www.facebook.com/benjamin.poncechanca/" target="_blank" ><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/b-ponce-chanca/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        <!--ABOUT-->
+        <section class="section__about adjust" id="about">
+            <div class="about-title">
+                <h2>Sobre mi</h2>
+            </div>
+            <div class="about-content">
+                <div class="textBox">
+                    <p>Soy una persona muy optimista y sencilla, me considero un apasionado por la tecnología y las nuevas tendencias que aparecen en lo referente al diseño de interfaces. Me gusta expresar mis conocimientos elaborando muchos proyectos, que incluyan todos los conocimientos adquiridos.
+                    </p>
+                    <br><p>Por otro lado, en conjunto con mi carrera empresarial.Tengo experiencia con las áreas administrativas 
+                        de pequeñas empresas; elaborar facturas, organizar 
+                        y manejar sistema de inventario y calcular los costos, 
+                        en conjunto con mis aptitudes de responsabilidad, puntualidad, 
+                        comunicación eficaz y proactividad, he demostrado ser eficiente.
+                         En la actualidad estoy en el quinto ciclo de la carrera Administración
+                          de Empresas y me interesa obtener nuevos retos laborales.</p>
+                </div>
+                <div class="imgBx">
+                    <img src="./assets/img/bg.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+        <!--SERVICES-->
+        <section class="section__services adjust" id="services">
+            <div class="services-title">
+                <h2>Mis Servicios</h2>
+                <p>Estos algunos de los tipos de servicios que he realizado para 
+                    algunas empresas y de forma personal</p>
+            </div>
+            <div class="services-content">
+                <div class="serviceBox">
+                    <img src="./assets/img/icon1.png" alt="">
+                    <h2>Diseño Web</h2>
+                    <p>El diseño que yo aplico siempre va enfatizado a brindar una buena experiencia de usuario.
+                        Con páginas dinámicas, amigables y optimizadas.</p>
+                </div>
+                <div class="serviceBox">
+                    <img src="./assets/img/icon2.png" alt="">
+                    <h2>Maquetación Web</h2>
+                    <p>Las maquetaciones que he realizado son Responsive, para que se 
+                        adapten a cualquier dispositivo móvil. </p>
+                </div>
+                <div class="serviceBox">
+                    <img src="./assets/img/icon3.png" alt="">
+                    <h2>Programación en Android</h2>
+                    <p>Las aplicaciones en mi opinión, deben ser fundamentales en toda empresa, ahora que somos participes 
+                        de una nueva integración comercial.</p>
+                </div>
+                
+                <div class="serviceBox">
+                    <img src="./assets/img/icon7.png" alt="">
+                    <h2>Análisis de Datos</h2>
+                    <p>Domino el programa de Excel Intermedio y Avanzado para relizar informes de toda la Data recopilada,
+                         para interpretar los resultados. </p>
+                </div>
+                
+                <div class="serviceBox">
+                    <img src="./assets/img/icon5.png" alt="">
+                    <h2>Copywriting</h2>
+                    <p>El area de la escritura persuasiva es algo que también he desarrollado.</p>
+                </div>
+                <div class="serviceBox">
+                    <img src="./assets/img/icon6.png" alt="">
+                    <h2>Edición de videos</h2>
+                    <p>Edito videos de corta duración para mostrarlos a comunidades en redes sociales.</p>
+                </div>
+            </div>
+        </section>
+        <!--Projects-->
+        <section class="section__project adjust" id="project">
+            <div class="project-title">
+                <h2>Proyectos recientes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Ex placeat odio repellendus commodi animi vel hic.</p>
+            </div>
+            <div class="project-content">
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="./assets/img/soportec.jpg" alt="">
+                    </div>
+                    <div class="textBx">
+                        <h3>Proyecto 01</h3>
+                        <a href="http://soportecdigital.github.io/">Soportec Digital</a>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="./assets/img/img2.jpg" alt="">
+                    </div>
+                    <div class="textBx">
+                        <h3>Proyecto 02</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="./assets/img/img3.jpg" alt="">
+                    </div>
+                    <div class="textBx">
+                        <h3>Proyecto 03</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="./assets/img/img4.jpg" alt="">
+                    </div>
+                    <div class="textBx">
+                        <h3>Proyecto 04</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="./assets/img/img5.jpg" alt="">
+                    </div>
+                    <div class="textBx">
+                        <h3>Proyecto 05</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="./assets/img/img6.jpg" alt="">
+                    </div>
+                    <div class="textBx">
+                        <h3>Proyecto 06</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="./assets/img/img7.jpg" alt="">
+                    </div>
+                    <div class="textBx">
+                        <h3>Proyecto 07</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="./assets/img/img8.jpg" alt="">
+                    </div>
+                    <div class="textBx">
+                        <h3>Proyecto 08</h3>
+                    </div>
+                </div>
+                <div class="workBx">
+                    <div class="imgBx">
+                        <img src="./assets/img/img9.jpg" alt="">
+                    </div>
+                    <div class="textBx">
+                        <h3>Proyecto 09</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Testimonios-->
+        <section class="section__testimoninals adjust" id="testimonials">
+            <div class="testimonials-title">
+                <h2>Testimonios</h2>
+                <p>Lo que algunas personas muy respetadas comentaron sobre mi, por los resultados de mi trabajo y desempeño en los proyectos realizados</p>
+            </div>
+            <div class="testimonials-content">
+                <div class="testimonialsBox">
+                    <div class="imgBx">
+                        <img src="./assets/img/c_p.jpg" alt="">
+                    </div>
+                    <p>Benjamín notó de manera rápida las ineficiencias de nuestra web y propuso soluciones efectivas. En conjunto con nuestro equipo se vieron buenos resultados a través de la web que nos elaboró.</p>
+                    <h4>César Pacheco <br> <span>Business Marketing</span> </h4>
+                </div>
+                <div class="testimonialsBox">
+                    <div class="imgBx">
+                        <img src="./assets/img/s_r.jpg" alt="">
+                    </div>
+                    <p>Las ideas innovadoras de Benjamín sobre el diseño de interfaces y la experiencia de usuario en una plataforma web son muy eficientes. La alegría de nuestros clientes al usar nuestra aplicación, son una gran muestra de su dedicación y desempeño.</p>
+                    <h4>Sergio Roque <br> <span>CEO-consultora Info 21</span> </h4>
+                </div>
+                <!--
+                <div class="testimonialsBox">
+                    <div class="imgBx">
+                        <img src="./assets/img/user3.jpg" alt="">
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                         Error ullam consequuntur nulla quibusdam minus obcaecati
+                          aliquid cumque harum illo odio.</p>
+                    <h4>Someone Famouse <br> <span>Website Designer</span> </h4>
+                </div>
+                -->
+            </div>
+        </section>
+        <!--CONTACT-->
+        <section class="section__contact adjust" id="contact">
+            <div class="contact-title">
+                <h2>Mándame un saludo</h2>
+                <p>Te responderé lo más pronto y estaré muy dispuesto a ayudarte.</p>
+            </div>
+            <div class="contact-form">
+                <div class="row">
+                    <input type="text" name="" placeholder="Nombres">
+                    <input type="text" name="" placeholder="Apellidos">
+                </div>
+                <div class="row">
+                    <input type="text" name="" placeholder="Email">
+                    <input type="text" name="" placeholder="Número móvil">
+                </div>
+                <div class="row2">
+                    <textarea  placeholder="Escribir mensaje"></textarea>
+                </div>
+                <div class="row2">
+                    <input type="submit" value="Enviar">
+                </div>
+            </div>
+        </section>
+        <!--COPYRIGHT-->
+        <div class="copy">
+            <p>Copyright || 2021 Benyamin. Todos los derechos reservados.</p>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let navigation = document.querySelector('.navigation');
+        let topbar = document.querySelector('.topbar');
+        let main = document.querySelector('.main');
+        let themeSwitch = document.querySelector('.themeSwitch');
+        let body = document.querySelector('body');
+        toggle.onclick = function(){
+            toggle.classList.toggle('active');
+            topbar.classList.toggle('active');
+            navigation.classList.toggle('active');
+            main.classList.toggle('active');
+            /*al momento que le doy clic al toggle, se activan las variables toggle, topbar, navigation*/
+        }
+        function toggleMenu(){
+            let navigation = document.querySelector('.navigation');
+            let main = document.querySelector('.main');
+            navigation.classList.remove('active');
+            main.classList.remove('active');
+        }
+        themeSwitch.onclick = function(){
+            body.classList.toggle('dark');
+        }
+    </script>
+</body>
+</html>
